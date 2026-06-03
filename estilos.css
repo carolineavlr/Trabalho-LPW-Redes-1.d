@@ -1,5 +1,20 @@
 .titulo{
-    color: green;
+    color:rgb(241, 78, 29);
     font-size: 75px;
     text-align: center;
+}
+.liv{
+    text-align: center;
+}
+body{
+    background-color: rgb(241, 225, 172);
+}
+.piv{
+  text-align: center;
+}
+.piv1{
+  text-align: right;
+}
+.piv2{
+  text-align: left;
 }
