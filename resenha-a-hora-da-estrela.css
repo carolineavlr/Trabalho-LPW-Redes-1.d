@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  background-color: #f3ead9;
+  font-family: 'Lora', serif;
+  color: #3e2a1e;
+}
+
+.capa-livro {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 40px 60px;
+  background: linear-gradient(135deg, #6b4f31, #3e2a1e);
+  color: #f3ead9;
+}
+
+.capa-img {
+  height: 220px;
+  border-radius: 4px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.capa-texto h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  margin: 0;
+}
+
+.autora-nome {
+  font-style: italic;
+  font-size: 20px;
+  opacity: 0.85;
+  margin-top: 8px;
+}
+
+.conteudo {
+  display: flex;
+  gap: 40px;
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 0 30px;
+  align-items: flex-start;
+}
+
+.resenha {
+  flex: 2;
+  background: #fffaf0;
+  padding: 35px;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(62, 42, 30, 0.15);
+  line-height: 1.8;
+}
+
+.resenha h2 {
+  font-family: 'Playfair Display', serif;
+  border-bottom: 2px solid #d8c39d;
+  padding-bottom: 10px;
+}
+
+.assinatura {
+  font-style: italic;
+  color: #6b4f31;
+  margin-top: -5px;
+  margin-bottom: 25px;
+}
+
+.autor {
+  flex: 1;
+  background: #6b4f31;
+  color: #f3ead9;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(62, 42, 30, 0.25);
+  text-align: center;
+}
+
+.foto-autor {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #f0d9a8;
+  margin-bottom: 10px;
+}
+
+.autor h2 {
+  font-family: 'Playfair Display', serif;
+  margin-top: 0;
+}
+
+.autor dl {
+  text-align: left;
+}
+
+.autor dt {
+  font-weight: bold;
+  color: #f0d9a8;
+  margin-top: 18px;
+}
+
+.autor dd {
+  margin: 4px 0 0 0;
+  line-height: 1.5;
+}
+
+.voltar {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.voltar a {
+  text-decoration: none;
+  background: #3e2a1e;
+  color: #f3ead9;
+  padding: 10px 18px;
+  border-radius: 20px;
+  font-family: 'Lora', serif;
+  transition: background 0.3s ease;
+}
+
+.voltar a:hover {
+  background: #6b4f31;
+}
+
+@media (max-width: 800px) {
+  .capa-livro {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .conteudo {
+    flex-direction: column;
+  }
+
+  .capa-texto h1 {
+    font-size: 34px;
+  }
+}
