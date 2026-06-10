@@ -18,3 +18,19 @@ body{
 .piv2{
   text-align: left;
 }
+.links-pags a:hover{
+color: rgb(70, 10, 235);
+}
+.links-pags {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+display: flex;
+gap: 20px;
+color: rgb(82, 13, 194);
+text-decoration: none;
+font-family: Georgia, 'Times New Roman', Times, serif;
+padding: 20px;
+box-sizing: border-box;
+}
