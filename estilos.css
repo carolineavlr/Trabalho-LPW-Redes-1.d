@@ -12,17 +12,17 @@ body{
 .piv{
   text-align: center;
 }
-.piv1{
+.piv2{
   text-align: right;
 }
-.piv2{
+.piv3{
   text-align: left;
 }
 .links-pags a:hover{
 color: rgb(70, 10, 235);
 }
 .links-pags {
-position: absolute;
+position: fixed;
 top: 0;
 left: 0;
 width: 100%;
@@ -33,4 +33,16 @@ text-decoration: none;
 font-family: Georgia, 'Times New Roman', Times, serif;
 padding: 20px;
 box-sizing: border-box;
+justify-content: flex-end;
+}
+.links-pags {
+font-family: 'Playfair Display', serif;
+font-size: 18px;
+}
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    color: rgb(241, 78, 29);
+    text-align: center;
+    letter-spacing: 2px;
 }
