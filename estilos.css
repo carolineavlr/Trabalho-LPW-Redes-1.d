@@ -1,60 +1,73 @@
-
-.liv{
-     text-align: left;
-      margin-top: 70px;
+.titulo{
+    color:rgb(15, 40, 180);
+    font-size: 75px;
+    text-align: center;
 }
 body{
-    background-color: rgb(231, 205, 132);
-}
-.piv{
-  text-align: center;
-}
-.piv2{
-  text-align: right;
-}
-.piv3{
-  text-align: left;
-}
-.links-pags a:hover{
-color: rgb(70, 10, 235);
-}
-.links-pags {
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-display: flex;
-gap: 20px;
-color: rgb(82, 13, 194);
-text-decoration: none;
-font-family: Georgia, 'Times New Roman', Times, serif;
-padding: 20px;
-box-sizing: border-box;
-justify-content: flex-end;
-}
-.links-pags {
-font-family: 'Playfair Display', serif;
-font-size: 18px;
-}
-h1 {
-    font-family: 'Dancing Script', cursive;
-    font-size: 70px;
-    color: rgb(241, 78, 29);
-    text-align: center;
-    letter-spacing: 2px;
-}
-.logo img {
-  width: 120px;
-  height: auto;
-  display: block;
-  margin-left: 20px;
+   background:rgb(33, 13, 94);
 }
 header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  color: rgb(0, 1, 72);
+  padding: 20px 40px;
+  background: url('foto\ biblioteca\ estrelada.jpg') no-repeat center center;
+  background-size: cover;
+  height: 200px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo img {
+  height: 300px;
+}
+
+.texto-logo h1 {
+ font-family: 'Playfair Display', serif;
+  font-size: 70px;
+  margin: 0;
+  color: rgb(251, 251, 252);
+   text-shadow: 2px 2px 4px #040654;
+}
+
+.texto-logo h2 {
+  font-size: 32px;
+  margin: 5px 0;
+  color: rgb(247, 247, 249);
+}
+
+.texto-logo h3 {
+  font-size: 32px;
+  margin: 0;
+  opacity: 0.9;
+  color: rgb(238, 238, 246);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  margin: 0;
+  padding: 0;
   position: fixed;
   top: 0;
-  left: 0;
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.136);
-  padding: 10px 0;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  right: 0%;
+}
+
+nav a {
+  color: rgba(53, 49, 156, 0.795);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #eaeaef;
 }
