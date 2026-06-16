@@ -1,13 +1,10 @@
-.titulo{
-    color:rgb(241, 78, 29);
-    font-size: 75px;
-    text-align: center;
-}
+
 .liv{
-    text-align: center;
+     text-align: left;
+      margin-top: 70px;
 }
 body{
-    background-color: rgb(241, 225, 172);
+    background-color: rgb(231, 205, 132);
 }
 .piv{
   text-align: center;
