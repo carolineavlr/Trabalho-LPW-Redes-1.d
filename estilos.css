@@ -61,7 +61,7 @@ nav ul {
 }
 
 nav a {
-  color: rgba(53, 49, 156, 0.795);
+  color: rgba(239, 239, 242, 0.795);
   text-decoration: none;
   font-weight: bold;
   font-size: 30px;
@@ -69,7 +69,7 @@ nav a {
 
 nav a:hover {
   text-decoration: underline;
-  color: #eaeaef;
+  color: #2626a3;
 }
 .resenhas {
   text-align: center;
