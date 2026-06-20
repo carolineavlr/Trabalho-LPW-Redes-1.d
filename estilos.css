@@ -124,6 +124,18 @@ nav a:hover {
   gap: 10px;                     
  }
 
+ .container-sucessos {
+  display: flex;
+  justify-content: space-between; 
+  flex-wrap: wrap;             
+  gap: 10px;                     
+ }
+ .container-entreter {
+  display: flex;
+  justify-content: space-between; 
+  flex-wrap: wrap;             
+  gap: 10px;                     
+ }
 .quadros {
   width: 20%;                
   border: 1px solid #ccc;
