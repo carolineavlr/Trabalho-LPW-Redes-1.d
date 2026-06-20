@@ -123,14 +123,8 @@ nav a:hover {
   flex-wrap: wrap;             
   gap: 10px;                     
  }
-.quadro {
-  width: 20%;                
-  border: 1px solid #ccc;
-  padding: 15px;
-  text-align: center;
-  background-color: #fff;
-}
-.quadro {
+
+.quadros {
   width: 20%;                
   border: 1px solid #ccc;
   padding: 15px;
