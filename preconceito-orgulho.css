@@ -46,13 +46,13 @@ h1, h2 {
   padding: 10px;            
   border-radius: 6px;       
 }
-quadro {
+.quadro {
 float: right;                 
   margin-top: 20px;             
   margin-left: 20px;           
 width: 900px;
-background: #a6cff2;
-border: 6px solid black;
+background: #c6e0f8;
+border: 3px solid black;
 border-radius: 12px;
 padding: 12px;
 font-family: 'Merriweather', serif;
