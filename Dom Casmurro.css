@@ -24,22 +24,17 @@
    
    .quadro{ 
        max-width: 180px;
-       background-color: rgb(251, 251, 252);
+       background-color: rgb(236, 204, 144);
        padding-right: 50px;
        padding-left: 50px;
        border-radius: 10px;
        font-size: 15px;    
    }
-   .machado{
-       text-align: right;
-       padding-top: 0px;
-       display: flex;
-       flex-direction: row;
-   }
+  
    .resenha h3{
        text-align: left;
         max-width: 600px;
-       background-color: rgb(251, 251, 252);
+       background-color: rgb(236, 204, 144);
        padding-right: 50px;
        padding-left: 50px;
        border-radius: 10px;
