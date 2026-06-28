@@ -6,7 +6,13 @@
    color: rgb(33, 21, 146);
 } 
 body{
-    background-image: url(iracema.webp);
+  background-image: url(iracema.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin:auto;
+  padding: auto;
 }
 h1{
   text-align: center;
@@ -20,13 +26,20 @@ h1{
   border-radius: 10px;
   font-size: 75px;
 }
+.bloco{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* rgb(163, 163, 224); 
+rgb(57, 57, 209)*/
 .quadro{ 
-  max-width: 300px;
-  background-color: rgb(251, 251, 252);
-  padding-right: 30px;
-  padding-left:50px;
+  width: 600px;
+  background-color: rgb(231, 219, 110);
   border-radius: 10px;
-  font-size: 15px;    
+  font-size: 15px;
+  text-align: center;
+  border: 5px solid rgb(219, 206, 26);
 }
 .resenha h3{
   text-align: left;
@@ -38,7 +51,7 @@ h1{
   font-size: 15px;    
   flex-direction:row; 
   -webkit-text-stroke: 2px rgb(65, 27, 1); 
-   color: white; 
+   color:rgb(65, 27, 1); 
    font-size: 25px;
 }
 .alinha{

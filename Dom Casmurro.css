@@ -3,55 +3,52 @@
      bottom: 20px;
      right: 20px;
      margin: 0;
-     color: rgb(3, 7, 3);
-   } 
-   body{
-    background-image: url(dom\ casmurro.webp);
-       
-   }
-   h1{
-       text-align: center;
-       font-family: 'Playfair Display', serif;
-       font-size: 70px;
-       margin:50px auto;  
-       max-width: 500px;
-       color:rgb(240, 6, 6) ;
-       background-color: rgb(251, 251, 252);
-       padding: 10px;
-       border-radius: 10px;
-       font-size: 75px;
-   }
-   
-   .quadro{ 
-       max-width: 180px;
-       background-color: rgb(251, 251, 252);
-       padding-right: 50px;
-       padding-left: 50px;
-       border-radius: 10px;
-       font-size: 15px;    
-   }
-   .machado{
-       text-align: right;
-       padding-top: 0px;
-       display: flex;
-       flex-direction: row;
-   }
-   .resenha h3{
-       text-align: left;
-        max-width: 600px;
-       background-color: rgb(251, 251, 252);
-       padding-right: 50px;
-       padding-left: 50px;
-       border-radius: 10px;
-       font-size: 15px;    
-       flex-direction:row; 
-       -webkit-text-stroke: 2px rgb(65, 27, 1); 
-        color: white; 
-        font-size: 22px;
-   }
-   .alinha{
+     color: rgb(20, 189, 20);
+} 
+body{
+ background-color: rgb(32, 56, 133);       
+}
+h1{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 70px;
+    margin:50px auto;  
+    max-width: 500px;
+    color:rgb(240, 6, 6) ;
+    background-color: rgb(251, 251, 252);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 75px;
+}
+
+.bloco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .quadro{ 
+    width: 600px;
+    background-color: rgb(240, 141, 141);
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+    border: 5px solid rgb(209, 57, 57);
+  }
+.resenha h3{
+    text-align: left;
+    max-width: 700px;
+    background-color: rgb(251, 251, 252);
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 10px;
+    font-size: 15px;    
+    flex-direction:row; 
+    -webkit-text-stroke: 2px rgb(65, 27, 1); 
+    color: rgb(65, 27, 1);
+    font-size: 25px;
+}
+.alinha{
     display: flex;
     flex-direction: row;
-  }
   
-   
+}
