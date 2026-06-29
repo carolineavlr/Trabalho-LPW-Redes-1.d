@@ -1,0 +1,71 @@
+.voltar{
+ position: fixed;
+  bottom: 20px;
+  right: 20px;
+  margin: 0;
+} 
+body{
+   background-image: url(fundo\ shakespere.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+.cursiva {
+  font-family: 'Tangerine', cursive;
+  font-size: 60px;
+  color: #362104; 
+  text-shadow: 1px 1px 2px #bfa77a; 
+  text-align: center;
+}
+.cursiva-sub {
+  font-family: 'Tangerine', cursive;
+  font-size: 50px;
+  color: #4b2e05;
+  text-shadow: 1px 1px 2px #bfa77a;
+}
+.resenha {
+    font-family: 'Great Vibes', cursive;
+  font-size: 32px;
+  color: #010101;  
+}
+a {
+  color: #392304; 
+  text-decoration: none;
+}
+
+a:hover {
+  color: #080101;       
+  text-decoration: underline; 
+}
+.container {
+  display: flex;
+  align-items: flex-start; /* alinha pelo topo */
+  justify-content: center; /* centraliza tudo */
+  gap: 30px; /* espaço entre os elementos */
+}
+
+.info {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #010101;
+  width: 400px;
+  background: #682f098b;
+  border: 2px solid black;
+  border-radius: 12px;
+  padding: 12px;
+  font-weight: 900;
+  font-size: 18px;
+  text-align: center;
+}
+
+.autor {
+  width: 310px;
+  margin-top: 30px;
+  border-radius: 16px;
+}
+
+.megera {
+  width: 600px;
+  margin-top: 30px;
+  border-radius: 13px;
+}
