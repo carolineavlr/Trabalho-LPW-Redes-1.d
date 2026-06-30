@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>A Megera Domada - Minha biblioteca</title>
+    <link rel="icon" href="logo nova.png" type="image/png">
     <link rel="stylesheet" href="megera-domada.css">
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
@@ -16,15 +18,30 @@ O desfecho traz Catarina fazendo um discurso sobre obediência e submissão da e
 <div class="voltar">
 <a href="index.html">Voltar ao início</a>
 </div>
- <div class="container">
-  <img src="megera gritando.jpg" alt="Peça teatral" class="megera">
-  
-  <div class="info">
-    <h3>William Shakespeare</h3>
-    <p><b>Data de nascimento:</b> 23/04/1564</p>
-    <p><b>Data de óbito:</b> 23/04/1616</p>
-    <p><b>Publicação de A Megera Domada:</b> 1590–1592</p>
-  </div>
-  
-  <img src="foto shakespere.webp" alt="William Shakespeare" class="autor">
+<div class="container">
+    <img src="megera gritando.jpg" alt="Peça teatral" class="megera">
+    <div class="info" id="quadro">
+      <h3>William Shakespeare</h3>
+      <p><b>Data de nascimento:</b> 23/04/1564</p>
+      <p><b>Data de óbito:</b> 23/04/1616</p>
+      <p><b>Publicação de A Megera Domada:</b> 1590–1592</p>
+      <p id="curiosidade">
+        Curiosidade: Shakespeare inventou mais de 1700 palavras na língua inglesa!
+      </p>
+      <img src="foto shakespere.webp" alt="William Shakespeare" class="autor">
+    </div>
 </div>
+  <script>
+    const quadro = document.getElementById("quadro");
+    const curiosidade = document.getElementById("curiosidade");
+    quadro.addEventListener("click", () => {
+      quadro.classList.toggle("active");
+      if (curiosidade.style.display === "none") {
+        curiosidade.style.display = "block";
+      } else {
+        curiosidade.style.display = "none";
+      }
+    });
+  </script>
+</body>
+</html>

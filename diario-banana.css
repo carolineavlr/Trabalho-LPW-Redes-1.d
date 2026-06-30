@@ -65,6 +65,7 @@ color:brown;
 .foto-autor {
 width: 200px;             
   margin: 20px;  
+  border-radius: 12px;
 }
 .imagens {
 display: flex;
