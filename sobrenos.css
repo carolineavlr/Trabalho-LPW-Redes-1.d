@@ -5,18 +5,156 @@
    margin: 0;
    color: rgb(250, 0, 33);
 }
-body{
-    background-image: url(fundo\ diario\ banana.avif);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover ;
-    background-attachment: fixed;
-    margin: auto;
-    padding: auto;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
 }
+
+body{
+    background: linear-gradient(135deg,#0f4c81,#3b82f6,#93c5fd);
+    min-height:100vh;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+h1{
+    font-size:50px;
+    margin-bottom:15px;
+    text-shadow:3px 3px 8px rgba(0,0,0,.4);
+}
+
+h2{
+    font-size:25px;
+    margin-bottom:15px;
+}
+
+h3{
+    width:80%;
+    margin:auto;
+    font-weight:400;
+    margin-bottom:40px;
+}
+
 .livros{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 50px;
+    display:flex;
+    justify-content:center;
+}
+
+table{
+    width:95%;
+    max-width:1000px;
+    border-collapse:collapse;
+    background:rgba(255,255,255,0.15);
+    backdrop-filter:blur(10px);
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 10px 30px rgba(0,0,0,.3);
+}
+
+thead{
+    background:#003b8e;
+}
+
+thead th{
+    color:white;
+    padding:18px;
+    font-size:18px;
+    letter-spacing:1px;
+}
+
+tbody td{
+    padding:15px;
+    color:#fff;
+    font-size:17px;
+}
+
+tbody tr:nth-child(even){
+    background:rgba(255,255,255,.12);
+}
+
+tbody tr:hover{
+    background:#60a5fa;
+    transform:scale(1.01);
+    transition:.3s;
+}
+
+.voltar{
+    margin-top:40px;
+}
+
+.voltar a{
+    text-decoration:none;
+    background:#003b8e;
+    color:white;
+    padding:15px 35px;
+    border-radius:40px;
+    font-size:18px;
+    font-weight:bold;
+    transition:.3s;
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+}
+
+.voltar a:hover{
+    background:#60a5fa;
+    transform:translateY(-3px);
+}
+.perguntas{
+    width:90%;
+    max-width:700px;
+    margin:50px auto;
+    padding:30px;
+    background:rgba(255,255,255,0.15);
+    backdrop-filter:blur(10px);
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.3);
+}
+
+.perguntas h2{
+    color:white;
+    margin-bottom:10px;
+}
+
+.perguntas p{
+    color:#eaf4ff;
+    margin-bottom:20px;
+}
+
+.perguntas form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.perguntas input,
+.perguntas textarea{
+    padding:15px;
+    border:none;
+    border-radius:12px;
+    font-size:16px;
+    outline:none;
+    background:rgba(255,255,255,.9);
+}
+
+.perguntas textarea{
+    resize:none;
+}
+
+.perguntas button{
+    background:#003b8e;
+    color:white;
+    border:none;
+    padding:15px;
+    border-radius:30px;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.perguntas button:hover{
+    background:#60a5fa;
+    transform:scale(1.03);
 }
