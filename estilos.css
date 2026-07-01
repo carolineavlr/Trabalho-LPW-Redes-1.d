@@ -79,12 +79,15 @@ nav a:hover {
 .quadro {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 30px;
   flex-wrap: wrap;
+}
+
+.quadro {
   background-color: #f9f9ff;
   border: 2px solid #003366;
   border-radius: 10px;
-  width: 320px;
+  width: 280px;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   transition: transform 0.3s;
