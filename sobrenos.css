@@ -1,0 +1,16 @@
+.voltar a{
+  position: fixed;
+   bottom: 20px;
+   right: 20px;
+   margin: 0;
+   color: rgb(250, 0, 33);
+}
+body{
+    background-image: url(fundo\ diario\ banana.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-attachment: fixed;
+    margin: auto;
+    padding: auto;
+}
